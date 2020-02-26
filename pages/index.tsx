@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Teste from 'components/Teste';
 
 const Home = () => (
   <div className="container">
@@ -6,10 +7,11 @@ const Home = () => (
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
+    <Teste />
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to <a href="https://nextjs.org">Next.js!!!</a>
       </h1>
 
       <p className="description">
@@ -198,6 +200,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
